@@ -1,0 +1,135 @@
+:root {
+  --purple-100: #d4add9;
+  --purple-400: #ae34cd;
+  --purple-900: #390646;
+  --white: #ffffff;
+  /* container sizes */
+  --container-width: 1048px;
+
+}
+/* resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #F5ECEC;
+}
+.container {
+  max-width: var(--container-width);
+  width: 100%;
+  margin: 0 auto;
+
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  background-color: var(--purple-100);
+  border-radius: 39px;
+  padding: 15px 12px;
+}
+.navbar {
+  margin-bottom: 35px;
+}
+.balans {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  
+}
+.balans_sum {
+font-weight: 800;
+font-size: 60px;
+line-height: 73px;
+color: var(--purple-900);
+}
+.wallet {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+.wallet__txt {
+  font-weight: 800;
+font-size: 60px;
+line-height: 73px;
+color: var(--purple-900);
+}
+.graphics {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  background-color: var(--purple-100);
+  border-radius: 39px;
+  padding: 37px 55px 63px 64px;
+  gap: 47px;
+}
+.graphics__item1 {
+  border: 1px solid var(--purple-400);
+  background-color: var(--purple-400);
+  width: 28px;
+  height: 355px;
+}
+.graphics__item2 {
+  border: 1px solid var(--purple-400);
+  background-color: var(--purple-400);
+  width: 28px;
+  height: 271px;
+}
+.graphics__item3 {
+  border: 1px solid var(--purple-400);
+  background-color: var(--purple-400);
+  width: 28px;
+  height: 197px;
+}
+.graphics__item4 {
+  border: 1px solid var(--purple-400);
+  background-color: var(--purple-400);
+  width: 28px;
+  height: 229px;
+}
+.graphics__item5 {
+  border: 1px solid var(--purple-400);
+  background-color: var(--purple-400);
+  width: 28px;
+  height: 309px;
+}
+.graphics__item6 {
+  border: 1px solid var(--purple-400);
+  background-color: var(--purple-400);
+  width: 28px;
+  height: 287px;
+}
+.graphics__item7 {
+  border: 1px solid var(--purple-400);
+  background-color: var(--purple-400);
+  width: 28px;
+  height: 355px;
+}
+.graphics__item8 {
+  border: 1px solid var(--purple-400);
+  background-color: var(--purple-400);
+  width: 28px;
+  height: 423px;
+}
+.graphics__item9 {
+  border: 1px solid var(--purple-400);
+  background-color: var(--purple-400);
+  width: 28px;
+  height: 271px;
+}
+.graphics__item10 {
+  border: 1px solid var(--purple-400);
+  background-color: var(--purple-400);
+  width: 28px;
+  height: 398px;
+}
