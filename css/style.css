@@ -72,6 +72,7 @@ color: var(--purple-900);
   border-radius: 39px;
   padding: 37px 55px 63px 64px;
   gap: 47px;
+  margin-bottom: 36px;
 }
 .graphics__item1 {
   border: 1px solid var(--purple-400);
@@ -132,4 +133,41 @@ color: var(--purple-900);
   background-color: var(--purple-400);
   width: 28px;
   height: 398px;
+}
+.footer {
+  display: flex;
+  gap: 48px;
+}
+.graphic-left {
+  max-width: 370px;
+  width: 100%;
+  background-color: var(--purple-100);
+  border-radius: 39px;
+  display: flex;
+  padding: 15px 85px 14px 50px;
+  align-items: center;
+  justify-content: center;
+
+}
+.graphic-left__diagram {
+  width: 235px;
+  height: 235px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 15px solid var(--purple-400);
+  border-radius: 50%;  
+}
+  
+.graphic-right {
+  max-width: 630px;
+  width: 100%;
+  background-color: var(--purple-100);
+  border-radius: 39px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.diagram {
+  position: absolute;
 }
