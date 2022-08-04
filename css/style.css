@@ -175,7 +175,6 @@ body {
   position: absolute;
 }
 .page-content {
-  /* max-width: 1440px; */
   display: flex;
   gap: 13px;
   margin-top: 13px;
@@ -213,7 +212,6 @@ body {
 }
 .link-txt {
   font-size: 35px;
- 
 }
 .theme {
   display: flex;
@@ -227,8 +225,9 @@ body {
 .theme__background {
   padding-left: 24px;
 }
-.wwwee {
+.item-background {
+  min-height: 104px;
   background: url(../assets/backgound_market.svg);
   background-size: 100%;
-  bg
+  background-repeat: no-repeat;
 }
